@@ -2,8 +2,16 @@
 *::after{
 	box-sizing: border-box;
 }
+img{
+    max-height: 300px;
+    margin-left:100px;
+    float: left;
+}
+text {
+    text-align: right;
+}
 header {
-    background-color: rgba(255, 255, 255,0.8); 
+    background-color: rgba(0, 0,0,1); 
     top: 0;
     text-align: center;
     position: fixed;
@@ -11,25 +19,51 @@ header {
     width: 100%;
     
 }
-body {
+main{
+    align-items: right;
+    min-width: 300px;
+    max-width: 1000px;
     
-    background-image: url(../images/backround1.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    margin: 0;
 }
 
-div{
-    background-color: rgba(255, 255, 255,0.7); 
-    min-height: 500px;
+h3{
+    font-size: 40px;
+    color: rgb(154, 200, 201);
+    font-family: tahoma;
+    margin-right: 20px;
+}
+h2{
+    color: white;
+    text-align: right;
+    margin-right: 10px;
+    margin-top: 5px;
+    font-size: 30px;
+}
+h1{
+    text-decoration-style: solid;
+    text-align: right;
+    margin-right: 10px;
+    margin-top: 120px;
+    color: white;
+    font-size: 15px;
+}
+body {
+    margin: 0;
+    background-color: rgba(255, 255, 255,0.8); 
+}
+
+.container {
+    min-height: 250px;
     width: auto;
     padding: 15px;
-    margin-right: 80px;
-    margin-bottom: 80px;
-    margin-top: 105px;
-    margin-left: 80px;
+    margin-right: auto;
+    margin-bottom: 20px;
+    margin-top: 60px;
+    margin-left: auto;
     align-content: center;
-    border-radius: 3em;
+     background-image: url(../images/backround3.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 nav{
     position: absolute;
@@ -68,7 +102,7 @@ nav{
 .nav-toggle-label span::before,
 .nav-toggle-label span::after{
     content: '';
-    position: absolute;
+    position: absolute
     
 }
 .nav-toggle-label span::before{
@@ -88,15 +122,15 @@ nav li {
 }
 nav a {
     color: white;
-    font-family: sans-serif;
+    font-family: tahoma;
     text-decoration: none;
-    font-size: 1.3rem;
+    font-size: 1rem;
     text-transform: uppercase;
     opacity: 0;
     transition: opacity 150ms ease-in-out;
 }
  nav a:hover{
-    color: #000;
+    color: aquamarine;
 }
 
 .nav-toggle:checked ~ nav{
@@ -106,7 +140,7 @@ nav a {
     opacity: 1;
     transition: opacity 250ms ease-in-out 250ms;
 }
-@media screen and (min-width:700px){
+@media screen and (min-width:867px){
     .nav-toggle-label{
         display: none;
     }
@@ -127,13 +161,13 @@ nav a {
     nav a{
         opacity: 1;
         position: relative;
-        color: black;
+        color: white;
     }
     nav a::before{
         content: '';
         display: block;
         height: 5px;
-        background: black;
+        background: aquamarine;
         position: absolute;
         top: -.75em;
         left: 0;
@@ -143,6 +177,7 @@ nav a {
     }
     nav a:hover::before{
         transform: scale(1,1);
+        
     }
     nav ul {
         display: flex;
@@ -152,17 +187,21 @@ nav a {
         margin-left: 3em;
         margin-bottom: 0;
     }
+    div {
+        max-height: 200px;
+    }
+     h2{
+        font-size: 40px;
+    }
+    h1{
+        font-size: 20px;
+    }
+    
 
 }
 
-
-
-
-
-
-
 form {
-    margin-top: 6em;
+    margin-top: 3em;
     margin-left:auto;
     margin-right:auto;
     margin-bottom: 4em;
@@ -322,39 +361,4 @@ input:focus, textarea:focus {
     -moz-box-shadow: rgba(255,255,255,0) 0 1px 0, inset rgba(255,255,255,0.7) 0 1px 0;
     box-shadow: rgba(255,255,255,0) 0 1px 0, inset rgba(255,255,255,0.7) 0 1px 0;
    }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
