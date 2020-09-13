@@ -2,10 +2,6 @@
 *::after{
 	box-sizing: border-box;
 }
-
-text {
-    text-align: right;
-}
 header {
     background-color: rgba(0, 0,0,1); 
     top: 0;
@@ -15,32 +11,53 @@ header {
     width: 100%;
     
 }
+.indexContainer{
+    margin-left: 50px;
+    margin-right: 50px;
+}
 .mainContainer{
-    min-height: 2100px;
     margin-left: 30px;
     margin-right: 30px;
-    font-size: 12px;
+}
+.mainn{
+    min-height: 700px;
+    max-height: 100%;
+}
+h7{
+    font-family: 'Assistant', sans-serif;
+    color: black;
+    font-size: 22px;
+    margin-top: 0px;
+}
+h6{
+    font-family: 'Assistant', sans-serif;
+    color: black;
+    font-size: 30px;
+    margin-top: 0px;
+    margin-bottom: 0;
 }
 h5{
-   font-family: tahoma;
+   font-family: 'Assistant', sans-serif;
     color: brown;
     font-size: 18px;
     margin-top: 0;
     text-decoration: underline;
 }
 h4{
-    font-family: tahoma;
+    font-family: 'Assistant', sans-serif;
     margin-bottom: 0;
     color: chocolate;
     font-size: 25px;
 }
 h3{
+    font-family: 'Assistant', sans-serif;
     font-size: 40px;
     color: rgb(154, 200, 201);
     font-family: tahoma;
     margin-right: 20px;
 }
 h2{
+    font-family: 'Assistant', sans-serif;
     color: white;
     text-align: right;
     margin-right: 10px;
@@ -48,7 +65,7 @@ h2{
     font-size: 30px;
 }
 h1{
-    text-decoration-style: solid;
+    font-family: 'Assistant', sans-serif;
     text-align: right;
     margin-right: 10px;
     margin-top: 120px;
@@ -65,19 +82,17 @@ body {
     width: auto;
     padding: 15px;
     margin-right: auto;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
     margin-top: 60px;
     margin-left: auto;
     align-content: center;
-     background-image: url(../images/backround3.jpg);
+    background-image: url(../images/backround4.jpg);
     background-size: cover;
     background-repeat: no-repeat;
 }
 .downDiv{
-    background-image: url(../images/down2.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    min-height: 230px;
+    background-color: black;
+    min-height: 200px;
 }
 nav{
     position: absolute;
@@ -223,18 +238,20 @@ nav a {
     margin-left: 85px;
     margin-right: 85px;
      font-size: 15px;
+     min-height: 2300px;
         
     }
-    
-
+    .container{
+         background-image: url(../images/backround3.jpg);
+    }
 }
 
 form {
-    margin-top: 3em;
+    margin-top: 1em;;
     margin-left:auto;
     margin-right:auto;
     margin-bottom: 4em;
-    width: 343px;
+    width: 500px;
     height: 390px;
     padding:30px;
     border: 1px solid rgba(0,0,0,.2);
@@ -244,18 +261,17 @@ form {
     -moz-background-clip: padding;
     -webkit-background-clip: padding-box;
     background-clip: padding-box;
-    background: rgba(0, 0, 0, 0.5); 
+    background: rgba(250, 250, 250, 0.5); 
     -moz-box-shadow: 0 0 13px 3px rgba(0,0,0,.5);
-    -webkit-box-shadow: 0 0 13px 3px rgba(0,0,0,.5);
-    box-shadow: 0 0 13px 3px rgba(0,0,0,.5);
     overflow: hidden; 
+    float: inherit;
 }
 
 textarea{
-	  background: rgba(255, 255, 255, 0.4) url(http://luismruiz.com/img/gemicon_message.png) no-repeat scroll 16px 16px; 
-    width: 276px;
+    background: rgba(255, 255, 255, 1) url(http://luismruiz.com/img/gemicon_message.png) no-repeat scroll 16px 16px; 
+    width: 450px;
     height: 110px;
-    border: 1px solid rgba(255,255,255,.6);
+    border: 1px solid rgba(0,0,255,.6);
     -moz-border-radius: 4px;
     -webkit-border-radius: 4px;
     border-radius: 4px;
@@ -274,9 +290,9 @@ textarea{
 }
 
 input {
-    width: 276px;
+    width: 450px;
     height: 48px;
-    border: 1px solid rgba(255,255,255,.4);
+    border: 1px solid rgba(255,255,255,1);
     -moz-border-radius: 4px;
     -webkit-border-radius: 4px;
     border-radius: 4px;
@@ -297,34 +313,36 @@ input[type=submit] {
 }
 
 input.name {
-	  background: rgba(255, 255, 255, 0.4) url(http://luismruiz.com/img/gemicon_name.png) no-repeat scroll 16px 16px; 
+	  background: rgba(0, 0, 0, 0.3) url(http://luismruiz.com/img/gemicon_name.png) no-repeat scroll 16px 16px; 
 	  padding-left:45px;
 }
 
 input.email {
-	  background: rgba(255, 255, 255, 0.4) url(http://luismruiz.com/img/gemicon_email.png) no-repeat scroll 16px 20px;
+	  background: rgba(0, 0, 0, 0.3) url(http://luismruiz.com/img/gemicon_email.png) no-repeat scroll 16px 20px;
 	  padding-left:45px;
 }
 
 input.message {
-	  background: rgba(255, 255, 255, 0.4) url(http://luismruiz.com/img/gemicon_message.png) no-repeat scroll 16px 16px;
+	  background: rgba(0, 0, 0, 0.1) url(http://luismruiz.com/img/gemicon_message.png) no-repeat scroll 16px 16px;
 	  padding-left:45px;
 }
 
 ::-webkit-input-placeholder {
-	  color: #fff;
+    direction: rtl;
+    font-family: 'Assistant', sans-serif;
+	  color: #000;
 }
 
 :-moz-placeholder{ 
-    color: #fff; 
+    color: #000; 
 }
 
 ::-moz-placeholder {
-    color: #fff;
+    color: #000;
 }
 
 :-ms-input-placeholder {  
-	  color: #fff; 
+	  color: #000; 
 }
 
 input:focus, textarea:focus { 
@@ -390,4 +408,23 @@ input:focus, textarea:focus {
     -moz-box-shadow: rgba(255,255,255,0) 0 1px 0, inset rgba(255,255,255,0.7) 0 1px 0;
     box-shadow: rgba(255,255,255,0) 0 1px 0, inset rgba(255,255,255,0.7) 0 1px 0;
    }
-
+@media screen and (max-width:562px){
+    form{
+        width: 250px;
+        height: 300px;
+    }
+    textarea{
+        width: 200px;
+        height: 70px;
+    }
+    input {
+        width: 200px;
+        height: 30px;
+    }
+    h6{
+        font-size: 28px;
+    }
+    h7{
+        font-size: 19px;
+    }
+}
