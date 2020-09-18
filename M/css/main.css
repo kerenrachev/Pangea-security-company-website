@@ -156,6 +156,8 @@ body {
     min-height: 200px;
 }
 nav{
+    
+    background-image:url(../images/navBackround.png);
     position: absolute;
     text-align: left;
     margin-top: 0;
@@ -168,6 +170,7 @@ nav{
 }
 .nav-toggle {
     display: none;
+    
 }
 .nav-toggle-label{
     position: absolute;
@@ -212,15 +215,15 @@ nav li {
 }
 nav a {
     color: white;
-    font-family: tahoma;
+    font-family: 'Assistant', sans-serif;
     text-decoration: none;
-    font-size: 1rem;
+    font-size: 1.3rem;
     text-transform: uppercase;
     opacity: 0;
     transition: opacity 150ms ease-in-out;
 }
  nav a:hover{
-    color: aquamarine;
+    color: cornflowerblue;
 }
 
 .nav-toggle:checked ~ nav{
@@ -257,9 +260,9 @@ nav a {
         content: '';
         display: block;
         height: 5px;
-        background: aquamarine;
+        background: cornflowerblue;
         position: absolute;
-        top: -.75em;
+        top: -.35em;
         left: 0;
         right: 0;
         transform: scale(0,1);
@@ -361,7 +364,7 @@ textarea{
     display:block;
     font-family: 'Source Sans Pro', sans-serif;
     font-size:18px;
-    color:#fff;
+    color:#000;
     padding-left:45px;
     padding-right:20px;
     padding-top:12px;
@@ -517,7 +520,7 @@ input:focus, textarea:focus {
         font-size: 15px;
     }
     .mainn{
-        min-height: 800px;
+        min-height: 700px;
     }
     #cameraPic{
         width: 70%;
@@ -568,7 +571,7 @@ input:focus, textarea:focus {
         display: none;
     }
     .mainn{
-        min-height: 1000px;
+        min-height: 760px;
     }
     
     
@@ -619,6 +622,9 @@ input:focus, textarea:focus {
     .mainContainer{
         min-height: 500px;
     }
+    .indexContainer{
+        min-height: 725px;
+    }
     .indexPictures{
         margin-right: 4em;
         margin-bottom: 3em;
@@ -641,7 +647,7 @@ input:focus, textarea:focus {
         width: 200px;
         height: 300px;
         margin-top: 4em;
-         margin-left: 5em;
+         margin-left: 3.8em;
         float: none;
     }
     textarea{
@@ -690,7 +696,7 @@ input:focus, textarea:focus {
         width: 200px;
         height: 300px;
         margin-top: 4em;
-         margin-left: 2em;
+         margin-left: 1.8em;
         float: none;
     }
     textarea{
@@ -702,7 +708,7 @@ input:focus, textarea:focus {
         height: 30px;
     }
     .mainn{
-        min-height: 1450px;
+        min-height: 1470px;
     }
     .info{
         width: 70%;

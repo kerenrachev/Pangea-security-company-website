@@ -12,7 +12,7 @@
     <nav>
      <ul>
        <li><a href="contact.php">צור קשר</a></li>
-         <li><a href="ovdanMlai.php">התמחויות שלנו</a></li>
+         <li><a href="ovdanMlai.php">תחומי התמחות</a></li>
          <li><a href="about.php">אודות</a></li>
          <li><a href="index.php">ראשי</a></li>
         </ul>
@@ -25,8 +25,8 @@
 <body>
 <div class="container">
     
-    <h1>ראשי >> התמחויות שלנו</h1>
-        <h2>אובדן מלאי</h2>
+    <h1>ראשי >> תחומי התמחות</h1>
+        <h2>תחומי התמחות</h2>
     </div>
     <center><h6>התמחויות שלנו</h6></center>
      <div class="mainContainer" style="direction: rtl">
@@ -86,7 +86,13 @@
            </div>
        </div>
     </div>
-    
+    <center>
+         <div style="background-image: url(../images/backRoundForLogo.jpg);min-height: 70px;">
+            <a href="https://wa.me/+9720524017711"target="_blank">
+                   <img src="images/myLogo.png">
+            </a>
+    </div>
+    </center>
     
     <a  class="whats-app" href="https://wa.me/+9720544327315" target="_blank">
        <img src="images/whatssap.png">

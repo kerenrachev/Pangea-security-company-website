@@ -16,7 +16,7 @@
     <nav>
      <ul>
          <li><a href="contact.php">צור קשר</a></li>
-         <li><a href="ovdanMlai.php">התמחויות שלנו</a></li>
+         <li><a href="ovdanMlai.php">תחומי התמחות</a></li>
          <li><a href="about.php">אודות</a></li>
          <li><a href="index.php">ראשי</a></li>
         </ul>
@@ -103,7 +103,13 @@
            </div>
        </div>
     </div>
-    
+    <center>
+         <div style="background-image: url(../images/backRoundForLogo.jpg);min-height: 70px;">
+            <a href="https://wa.me/+9720524017711"target="_blank">
+                   <img src="images/myLogo.png">
+            </a>
+    </div>
+    </center>
     
     <a  class="whats-app" href="https://wa.me/+9720544327315" target="_blank">
        <img src="images/whatssap.png">

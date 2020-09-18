@@ -5,7 +5,7 @@
           $userPhone= $_POST['telephone'];
           $massage= $_POST['massage'];
           $subject= 'Pangea Security בקשה ליצירת קשר';
-          $to = "keren1997rachev@gmail.com";
+          $to = "markd@pangea-security.com";
 
           $body="";
 
@@ -32,7 +32,7 @@
     <nav>
      <ul>
        <li><a href="contact.php">צור קשר</a></li>
-         <li><a href="ovdanMlai.php">התמחויות שלנו</a></li>
+         <li><a href="ovdanMlai.php">תחומי התמחות</a></li>
          <li><a href="about.php">אודות</a></li>
          <li><a href="index.php">ראשי</a></li>
         </ul>
@@ -54,13 +54,13 @@
             <img src="images/mark.jpg" class="contactPicturePangea" >    
         </div>
         <div class="divContactForm" >
-             <form >
+             <form action="" method="post">
 		<input name="name" placeholder="שם" class="name" required />
 		<input name="emailaddress" placeholder="אימייל" class="email" type="email" required />
         <input name="telephone" placeholder="טלפון" class="name" type="telephone" required />
         <textarea rows="4" cols="50" name="massage" placeholder="השאר הודעתך כאן" class="message" required></textarea>
         <input name="submit" class="btn" type="submit" value="שלח" />
-        </form>
+        </form> 
             
         </div>
     </div>
@@ -98,7 +98,13 @@
            </div>
        </div>
     </div>
-    
+    <center>
+         <div style="background-image: url(../images/backRoundForLogo.jpg);min-height: 70px;">
+            <a href="https://wa.me/+9720524017711"target="_blank">
+                   <img src="images/myLogo.png">
+            </a>
+    </div>
+    </center>
     
     <a  class="whats-app" href="https://wa.me/+9720544327315" target="_blank">
        <img src="images/whatssap.png">
